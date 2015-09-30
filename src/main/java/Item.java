@@ -1,6 +1,6 @@
 package main.java;
 
-public class Item {
+public abstract class Item {
 
     private String name;
     private int sellIn;
@@ -37,4 +37,17 @@ public class Item {
     public void setQuality(int quality) {
         this.quality = quality;
     }
+
+    public void DailyUpdate()
+    {
+        if (this.quality>=0 && this.quality<=50) UpdateQuality(this.sellIn);
+        this.sellIn--;
+    }
+
+    public String ToString()
+    {
+        return "Name : " + this.name + ", sellin : "+ this.sellIn +", quality : " + this.quality;
+    }
+
+    public abstract void UpdateQuality(int sellinn);
 }
