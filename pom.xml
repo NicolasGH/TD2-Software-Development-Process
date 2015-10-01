@@ -4,9 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD
     <groupId>TD2 Soft Dev Proc</groupId>
     <artifactId>TD2 Soft Dev Proc</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 
+=======
+    <groupId>groupId</groupId>
+    <artifactId>TP2</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    
+>>>>>>> df977eaadb2597ab51f9bb71ab69ba1689e03d97
 </project>

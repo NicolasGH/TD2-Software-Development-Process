@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+package main.java;
+
+>>>>>>> df977eaadb2597ab51f9bb71ab69ba1689e03d97
 public class Main {
     public static void main(String[] args) {
 
