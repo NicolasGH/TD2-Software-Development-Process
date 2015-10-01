@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-package main.java;
-
->>>>>>> df977eaadb2597ab51f9bb71ab69ba1689e03d97
 /**
  * Created by Nicolas on 30/09/15.
  */
