@@ -1,4 +1,3 @@
-
 public abstract class Item {
 
     private String name;
@@ -37,14 +36,12 @@ public abstract class Item {
         this.quality = quality;
     }
 
-    public void DailyUpdate()
-    {
+    public void DailyUpdate(){
         if (this.quality>=0 && this.quality<=50) UpdateQuality(this.sellIn);
         this.sellIn--;
     }
 
-    public String ToString()
-    {
+    public String ToString(){
         return "Name : " + this.name + ", sellin : "+ this.sellIn +", quality : " + this.quality;
     }
 

@@ -34,6 +34,10 @@ public class Inventory {
     }
 
 
+    public Item[] getItems()
+    {
+        return this.items;
+    }
     public String PrintInventory()
     {
         String str = "";
