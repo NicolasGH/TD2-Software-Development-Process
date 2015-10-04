@@ -95,9 +95,24 @@ public class InventoryTest {
                 }
 
 
+
                 else if (itemsPreviousDay[i].getClass().equals((new Conjured(" ",1,1)).getClass())&& itemsPreviousDay[i].getSellIn()>2 )
                 {
                     assertTrue(itemsPreviousDay[i].getQuality() - 2 == inventory.getItems()[i].getQuality());
+                }
+
+
+
+                else if (itemsPreviousDay[i].getClass().equals((new StandardItems(" ",1,1)).getClass())&& itemsPreviousDay[i].getSellIn()>0 )
+                {
+                    assertTrue(itemsPreviousDay[i].getQuality() - 1 == inventory.getItems()[i].getQuality());
+                }
+
+
+
+                else if (itemsPreviousDay[i].getClass().equals((new SulfurasItems(" ").getClass())))
+                {
+                    assertTrue(80 == inventory.getItems()[i].getQuality());
                 }
 
 
