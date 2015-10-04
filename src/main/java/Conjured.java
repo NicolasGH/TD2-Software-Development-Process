@@ -9,8 +9,8 @@ public class Conjured extends Item{
 
     @Override
     public void UpdateQuality(int sellinn) {
-        this.setQuality(this.getQuality()-2);
-        if (sellinn < 1) this.setQuality(this.getQuality()-2);
+        if (this.getQuality()>1) this.setQuality(this.getQuality()-2);
+        else if  (this.getQuality()==1) this.setQuality(this.getQuality()-1);
     }
 }
 
