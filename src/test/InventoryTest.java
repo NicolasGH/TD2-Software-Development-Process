@@ -120,11 +120,5 @@ public class InventoryTest {
             itemsPreviousDay=CloneObjectArray(inventory.getItems());
 
         }
-
-
-
-
-
-
     }
 }
