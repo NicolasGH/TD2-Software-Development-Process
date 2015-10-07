@@ -37,7 +37,10 @@ public abstract class Item implements Cloneable {
     }
 
     public void DailyUpdate() {
-        UpdateQuality(this.sellIn);
+        if (this instanceof IQualityUpdatable)
+        {
+            this.UpdateQuality(this.sellIn);
+        }
         this.sellIn--;
     }
 
@@ -46,6 +49,7 @@ public abstract class Item implements Cloneable {
     }
 
     public abstract void UpdateQuality(int sellinn);
+
 
     @Override
     protected Item clone()

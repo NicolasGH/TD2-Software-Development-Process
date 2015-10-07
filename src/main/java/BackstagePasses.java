@@ -1,5 +1,5 @@
 
-public class BackstagePasses extends Item{
+public class BackstagePasses extends Item implements IQualityUpdatable{
 
     public BackstagePasses(String _str,int _sellin, int _quality)
     {

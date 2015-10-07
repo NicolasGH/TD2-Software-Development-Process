@@ -2,7 +2,7 @@
 /**
  * Created by Nicolas on 30/09/15.
  */
-public class Conjured extends Item{
+public class Conjured extends Item implements IQualityUpdatable{
 
     public Conjured(String _str, int _sellIn, int _quality)
     {super(_str,_sellIn,_quality);}

@@ -2,19 +2,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+<modelVersion>4.0.0</modelVersion>
 
-<<<<<<< HEAD
-    <groupId>TD2 Soft Dev Proc</groupId>
-    <artifactId>TD2 Soft Dev Proc</artifactId>
-    <version>1.0-SNAPSHOT</version>
+<groupId>TD2-Soft-Dev-Proc</groupId>
+<artifactId>TD2-Soft-Dev-Proc</artifactId>
+<version>1.0-SNAPSHOT</version>
 
-
-=======
-    <groupId>groupId</groupId>
-    <artifactId>TP2</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
-    
->>>>>>> df977eaadb2597ab51f9bb71ab69ba1689e03d97
+<dependencies>
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.8.2</version>
+    </dependency>
+</dependencies>
 </project>

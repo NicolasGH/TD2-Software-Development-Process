@@ -2,7 +2,7 @@
 /**
  * Created by Nicolas on 30/09/15.
  */
-public class AgedBrie extends Item {
+public class AgedBrie extends Item implements IQualityUpdatable{
 
     public AgedBrie(int _sellIn, int _quality)
     {

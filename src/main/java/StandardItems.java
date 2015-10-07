@@ -2,7 +2,7 @@
 /**
  * Created by Nicolas on 30/09/15.
  */
-public class StandardItems extends Item {
+public class StandardItems extends Item implements IQualityUpdatable{
 
     public StandardItems(String _str,int _sellIn, int _quality)
     {
